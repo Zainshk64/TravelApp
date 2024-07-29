@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome To Travel Journey"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="39dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+
+                android:layout_width="327dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="330dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginBottom="19dp"
+                android:background="#FFFDFD"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+                android:paddingLeft="10dp"
+
+                android:ems="10"
+
+
+                android:hint="Enter Your Name"
+                android:inputType="textPersonName"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView17"
+                app:layout_constraintEnd_toStartOf="@+id/textView17"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="327dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="330dp"
+                android:layout_marginTop="470dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFDFD"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:hint="Enter Your Email"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+                android:inputType="textEmailAddress"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView17"
+                app:layout_constraintEnd_toStartOf="@+id/textView17"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.502" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="327dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="310dp"
+                android:background="#FFFDFD"
+
+                android:ems="10"
+                android:hint="Enter Your Phone Number"
+                android:inputType="phone"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_contact_phone_24"
+
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextTextPostalAddress"
+                android:layout_width="327dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="390dp"
+                android:background="#FFFDFD"
+                android:ems="10"
+
+                android:paddingLeft="10dp"
+
+                android:hint="Enter Your Address"
+                android:inputType="textPostalAddress"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/ic_baseline_add_location_alt_24"
+                android:drawablePadding="10dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="Sign Up"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.808"
+                app:layout_goneMarginStart="310dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="850dp"
+                android:layout_marginEnd="93dp"
+                android:layout_marginBottom="2dp"
+                android:text="Already Have an Account! LOGIN IN"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView17"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.249"
+                tools:ignore="MissingConstraints"
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
